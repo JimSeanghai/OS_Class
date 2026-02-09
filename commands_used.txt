@@ -1,0 +1,41 @@
+  783  ls
+  784  mkdir class_activity3
+  785  cd class_activity3
+  786  mkdir SHM-IPC
+  787  cd SHM-IPC
+  788  ls
+  789  nano shm-producer.c
+  790  nano shm-consumer.c
+  791  gcc -o shm-producer.c
+  792  gcc -o shm-producer shm-producer.c
+  793  gcc -o shm-consumer shm-consumer.c
+  794  ./shm-producer
+  795  ./shm-consumer > result-shm-ipc.txt
+  796  ls
+  797  cat result-shm-ipc.txt
+  798  cd ..
+  799  mkdir MQ-IPC
+  800  nano sender.c
+  801  nano receiver.c
+  802  nano common.h
+  803  gcc -o sender sender.c
+  804  gcc -o receiver receiver.c
+  805  ./sender
+  806  ./receiver
+  807  ./sender
+  808  ./receiver > result-mq-ipc.txt
+  809  cd ..
+  810  cd class_activity'
+  811  cd class_activity3
+  812  tree
+  813  cd MQ-IPC
+  814  ls
+  815  cd ..
+  816  ls
+  817  mv re* MQ-IPC/
+  818  mv se* MQ-IPC
+  819  ls
+  820  mv common.h MQ-IPC
+  821  ls
+  822  tree
+
