@@ -1,0 +1,10 @@
+g11-song-saknora:x:1051:1051:SONG SAKNORA:/home/g11-song-saknora:/bin/bash
+g11-suon-vannsakal:x:1052:1052:SUON VANNSAKAL:/home/g11-suon-vannsakal:/bin/bash
+g11-tanghoun-sunlong:x:1053:1053:TANGHOUN SUNLONG:/home/g11-tanghoun-sunlong:/bin/bash
+g11-thoeun-yanit:x:1054:1054:THOEUN YANIT:/home/g11-thoeun-yanit:/bin/bash
+g11-thon-sopheaktra:x:1055:1055:THON SOPHEAKTRA:/home/g11-thon-sopheaktra:/bin/bash
+g11-thunny-maridenn:x:1056:1056:THUNNY MARIDENN:/home/g11-thunny-maridenn:/bin/bash
+g11-uch-mengyean:x:1057:1057:UCH MENGYEAN:/home/g11-uch-mengyean:/bin/bash
+g11-vutha-sakal:x:1058:1058:VUTHA SAKAL:/home/g11-vutha-sakal:/bin/bash
+g11-yorn-pheaktra:x:1059:1059:YORN PHEAKTRA:/home/g11-yorn-pheaktra:/bin/bash
+rathpisey:x:1060:1060::/home/rathpisey:/bin/bash

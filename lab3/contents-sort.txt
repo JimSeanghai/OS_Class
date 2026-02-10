@@ -1,0 +1,5 @@
+drwx------ 4 g11-jim-seanghai g11-jim-seanghai 4096 Feb  3 09:00 snap
+drwxrwxr-x 2 g11-jim-seanghai g11-jim-seanghai 4096 Feb  9 08:50 lab3
+drwxrwxr-x 5 g11-jim-seanghai g11-jim-seanghai 4096 Feb  3 09:41 class_activity3
+drwxrwxr-x 9 g11-jim-seanghai g11-jim-seanghai 4096 Feb  9 08:42 lab2
+total 16

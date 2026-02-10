@@ -1,0 +1,1 @@
+cut -d   -f7 ../original_log/access.log | sort | uniq -c | sort -r > task4_top_ips.txt

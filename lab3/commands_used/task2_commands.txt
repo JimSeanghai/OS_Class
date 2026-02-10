@@ -1,0 +1,1 @@
+grep -E --color=always '401 | 403' ../original_log/access.log | cut -d  -f1,9 | sort |uniq -c > task2_failed_logs.txt

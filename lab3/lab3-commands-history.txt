@@ -1,0 +1,54 @@
+  252  cd challenge1
+  253  mkdir original_log
+  254  rm -rf orig*
+  255  ls
+  256  cd ..
+  257  rm -rf cha*
+  258  ld
+  259  ls
+  260  ls -l ~ > contents.txt
+  261  ls
+  262  cat contents.txt
+  263  sort contents.txt >>contents-sorted.txt
+  264  tail -n 10 /etc/passwd > ~/Documents/passwd_last10.txt
+  265  mkdir Documents
+  266  tail -n 10 /etc/passwd > ~/Documents/passwd_last10.txt
+  267  tail -n 10 /etc/passwd > ./Documents/passwd_last10.txt
+  268  ls
+  269  cd ..
+  270  ls
+  271  cd lab3
+  272  wc -w < contents.txt >> ~/field.txt
+  273  head -n 5 /etc/passwd | sort -r
+  274  tail -n 9 contents.txt | wc -m
+  275  ls
+  276  find /usr/share -type f -name test | wc -l
+  277  history 
+  278  cd ..
+  279  ls
+  280  mv field.txt field2.txt
+  281  ls
+  282  mv field2.txt lab3/
+  283  ls
+  284  cd ;ab3
+  285  cd lab3
+  286  ls
+  287  cd Do*
+  288  ls
+  289  mv passwd_last10.txt passwd-output.txt
+  290  mv passwd-output.txt ../
+  291  ls
+  292  cd ..
+  293  ls
+  294  mv contents-sorted.txt contents-sort.txt
+  295  ls
+  296  ls /etc/passwd
+  297  ls /etc/passwd/
+  298  cat /etc/passwd
+  299  clear
+  300  history 
+  301  clear
+  302  find /usr/share/ -name test
+  303  find /usr/share/ -name test | wc -l
+  304  history 
+  305  history | tail -n 54 > lab3-commands-history.txt
