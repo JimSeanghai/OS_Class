@@ -1,0 +1,9 @@
+  490  nano thread.c
+  491  gcc thread.c -o thread -pthread
+  492  ./thread
+  493  ls
+  494  mkdir class_activity4
+  495  mv thr* class_activity4/
+  496  cd class_activity4
+  497  hist
+  498  history

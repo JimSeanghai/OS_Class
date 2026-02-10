@@ -1,0 +1,1 @@
+ cut -d',' -f4 employees.txt | cut -d':' -f2 | grep '^j' > ../results/task3_j_emails.txt

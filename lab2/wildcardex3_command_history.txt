@@ -1,0 +1,233 @@
+    1  ls
+    2  mkdir ~/class_activity2
+    3  cd /class_activity2
+    4  cd class_activity2
+    5  ls
+    6  nano forkchild.c
+    7  ls
+    8  nano forkchild.c
+    9  ls
+   10  cd class_activity2
+   11  ls
+   12  nano shm-peoducer.c
+   13  nano shm-producer.c
+   14  lcd ..
+   15  cd ..
+   16  rm class_activity2 class_activity3
+   17  mv class_activity2 class_activity3
+   18  ls
+   19  cd class_activity3
+   20  ls
+   21  mkdir SHM-IPC
+   22  mv shm-producer.c /SHM-IPC/
+   23  mv shm-producer.c SHM-IPC/
+   24  ls
+   25  cd SHM-IPC
+   26  ls
+   27  nano shm-consumer.c
+   28  ls
+   29  gcc -o shm-producer shm-producer.c
+   30  gcc -o shm-consumer shm-consumer.c
+   31  ./shm-producer
+   32  ./shm-consumer > result-shm-ipc.txt
+   33  ls
+   34  nano shm-producer.c
+   35  nano shm-consumer.c
+   36  ./shm-consumer > result-shm-ipc.txt
+   37  ./shm-producer
+   38  ./shm-consumer > result-shm-ipc.txt
+   39  cat result-shm-ipc.txt
+   40  nano shm-producer.c
+   41  nano shm-consumer.c
+   42  ./shm-producer
+   43  ./shm-consumer > result-shm-ipc.txt
+   44  gcc -o shm-producer shm-producer.c
+   45  gcc -o shm-consumer shm-consumer.c
+   46  ./shm-producer
+   47  ./shm-consumer > result-shm-ipc.txt
+   48  cat resul*
+   49  mkdir MQ-IPC
+   50  mv MQ-IPC ../
+   51  ls
+   52  cd ..
+   53  ls
+   54  cd MQ-IPC
+   55  nano sender.c
+   56  nano receiver.c
+   57  gcc -o sender sender.c
+   58  gcc -o receiver receiver.c
+   59  ls
+   60  nano common.h
+   61  gcc -o sender sender.c
+   62  gcc -o receiver receiver.c
+   63  ./sender
+   64  ./receiver
+   65  ./receiver > result-mq-ipc.txt
+   66  ./sender
+   67  ./receiver > result-mq-ipc.txt
+   68  cat resu*
+   69  cdls
+   70  ls
+   71  tree
+   72  cd ..
+   73  taskmgr
+   74  ls
+   75  nano run_paint.c
+   76  gcc run_paint.c -o run_paint
+   77  ./run_paint
+   78  which gedit
+   79  which xpaint
+   80  which mousepad
+   81  which leafpad
+   82  which libreoffice
+   83  ./run_paint
+   84  pstree -p | grep run_paint
+   85  ps -ef | grep xpaint
+   86  ls
+   87  cd `
+   88  cd ~
+   89  ls
+   90  pwd
+   91  git init
+   92  ls
+   93  cd class*
+   94  git init
+   95  git add.
+   96  git add .
+   97  git status
+   98  git commit -m "Upload all server work: class activity 3"
+   99  git commit -m "Upload all server work: class activity 3 from Jim Seanghai"
+  100  git remote add origin https://github.com/JimSeanghai/OS_Class.git
+  101  git remote -v
+  102  git branch -M main
+  103  git push -u origin main
+  104  git config --global user.name "JimSeanghai"
+  105  git config --global user.email "seanghaijim2006@gmail.com"
+  106  git config --global --list
+  107  git commit -m "Upload all server work: class activity 3"
+  108  git branch -M main
+  109  git branch
+  110  git push -u origin main
+  111  ls
+  112  mkdir lab3
+  113  cd lab3
+  114  mkdir CopyingFolder
+  115  touch CopyingFolder/copied.txt
+  116  ls
+  117  cp CopyingFolder/copied.txt ~/Documents/
+  118  cd ~/Documents
+  119  pwd
+  120  ls
+  121  cd ..
+  122  pwd
+  123  cd ~/Documents
+  124  cd ~/Documents/
+  125  mkdir lab3/Documents/
+  126  ls
+  127  cd lab3
+  128  ls
+  129  cp CopyingFolder/copied.txt /Documents/
+  130  cp CopyingFolder/copied.txt Documents/
+  131  ls
+  132  cd /Documents
+  133  ls
+  134  cd Documents/
+  135  touch one.txt two.txt three.txt four.txt five.txt
+  136  ls
+  137  cp one.txt two.txt three.txt four.txt five.txt /lab3/CopyingFolder/
+  138* cp one.txt two.txt three.txt four.txt five.txt ../lab3/CopyingFol
+  139  ls
+  140  cd ..
+  141  ls
+  142  pwd
+  143  cp one.txt two.txt three.txt four.txt five.txt /home/g11-jim-seanghai/lab3/CopyingFolder/
+  144  ls
+  145  cp one.txt two.txt three.txt four.txt five.txt CopyingFolder/
+  146  cp one.txt CopyingFolder/
+  147  cp one.txt /CopyingFolder/
+  148  cp /Documents/one.txt CopyingFolder/
+  149  cp Documents/one.txt CopyingFolder/
+  150  cp Documents/two.txt CopyingFolder/
+  151  cp Documents/three.txt CopyingFolder/
+  152  cp Documents/four.txt CopyingFolder/
+  153  cp Documents/five.txt CopyingFolder/
+  154  ls Documents
+  155  ls
+  156  mkdir Desktop
+  157  cp -r CopyingFolder/* Desktop/
+  158  tree
+  159  cd Docu*
+  160  touch one_document.txt two_document.txt three_document.txt four_document.txt five_document.txt
+  161  echo 1 > one_document.txt
+  162  echo 2 > two_document.txt
+  163  echo 3 > three_document.txt
+  164  echo 4 > four_document.txt
+  165  echo 5 > five_document.txt
+  166  mv one_document.txt document_un.txt
+  167  mv two_document.txt document_deux.txt
+  168  mv three_document.txt document_trois.txt
+  169  mv four_document.txt document_quatre.txt
+  170  mv five_document.txt document_cinque.txt
+  171  cd ..
+  172  mkdir MoveFolder/
+  173  mv document_*.txt MoveFolder/
+  174  mv Documents/document_*.txt MoveFolder/
+  175  mkdir FrenchFolder
+  176  mv MoveFolder/* Desktop/FrenchFolder/
+  177  mv MoveFolder/* Desktop/FrenchFolder//
+  178  ls
+  179  mv MoveFolder/* Desktop/FrenchFolder//
+  180  ls FrechFolder
+  181  ls FrechFolder/
+  182  three
+  183  tree
+  184  rm -rf Fre*
+  185  ls
+  186  cd Des*
+  187  mkdir FrenchFolder
+  188  cd ..
+  189  ld
+  190  ls
+  191  mv MoveFolder/* Desktop/FrenchFolder/
+  192* tree Desktop/FrenchFolder > ~/lab3/tree_structure_before_remove.tx
+  193  rm Desktop/FrenchFolder/document_deux.txt
+  194  cd Doc*
+  195  mkdir EmptyFolder
+  196  cd Emp*
+  197  touch deletefile.txt
+  198  mkdir DeteleFolder
+  199  rmdir DeleteFolder
+  200  ls
+  201  mv DeteleFolder DeleteFolder
+  202  rmdir DeleteFolder
+  203  rm deletefile.txt
+  204  cd ..
+  205  rmdir EmptyFolder
+  206  cd ..
+  207  rm Desktop/FrenchFolder/*.txt
+  208  tree Desktop/FrenchFolder > ./tree_structure_after_remove.txt
+  209  history > ./wildcardex1_command_history.txt
+  210  mkdir wildcard_lab
+  211  cd wildcard_lab
+  212  touch a.txt b.txt ab.txt abc.txt xyz.log data.csv
+  213  ls *.txt
+  214  ls *.log
+  215  ls ?.txt
+  216  cd ..
+  217  mkdir backup
+  218  cp wildcard_lab/*.txt backup/
+  219  cp wildcard_lab/???.* backup/
+  220  rm wildcard_lab/?.txt
+  221  rm backup/*
+  222  cd wil*
+  223  cd wildcards
+  224  cd wildcards*
+  225  ls
+  226  cd wildcard_lab
+  227  wildcard_lab
+  228  touch file{1,2,3}.txt
+  229  ls file[1-3].txt
+  230  touch {1,2,3}file.txt
+  231  ls [1-3]file.txt
+  232  cd ..
+  233  history > ./wildcardex3_command_history.txt

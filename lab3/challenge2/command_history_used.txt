@@ -1,0 +1,45 @@
+  421  cd challenge2
+  422  l
+  423  mkdir data
+  424  cd data
+  425  nano employees.txt
+  426  cat employees.txt 
+  427  clear
+  428  cd ..
+  429  mkdir results
+  430  mkdir commands
+  431  cd results/
+  432  grep 'Department:IT' 
+  433  cd ..
+  434  cd results/
+  435  ls
+  436  cd ../data
+  437  ls
+  438  grep 'Department:IT' employees.txt 
+  439  grep 'department:IT' employees.txt
+  440  grep 'department:IT' employees.txt > ../results/task1_IT_staff.txt
+  441  ls
+  442  cut -d',' -f4 employees.txt | cut -d':' -f2
+  443  cut -d',' -f4 employees.txt | cut -d':' -f2  > ../results/task2_all_emails.txt
+  444  echo "cut -d',' -f4 employees.txt | cut -d':' -f2  > ../results/task2_all_emails.txt" > ../command
+  445  ls
+  446  echo "rep 'department:IT' employees.txt > ../results/task1_IT_staff.txt" > ../commands/task1_commands.txt
+  447  echo "cut -d',' -f4 employees.txt | cut -d':' -f2  > ../results/task2_all_emails.txt" > ../commands/task2_commands.txt
+  448  ls ../commands/
+  449  ls ../
+  450  rm -rf ../command
+  451  ls ../
+  452  cut -d',' -f4 employees.txt | cut -d':' -f2 | grep '^j'
+  453  cut -d',' -f4 employees.txt | cut -d':' -f2 | grep '^j' > ../results/task3_j_emails.txt
+  454  echo " cut -d',' -f4 employees.txt | cut -d':' -f2 | grep '^j' > ../results/task3_j_emails.txt" > ../commands/task3_commands.txt
+  455  grep 'department:HR' employees.txt | cut -d',' -f2 | cut -d':' -f2
+  456  grep 'department:HR' employees.txt | cut -d',' -f2 | cut -d':' -f2 > ../results/task4_HR_names.txt
+  457  echo " grep 'department:HR' employees.txt | cut -d',' -f2 | cut -d':' -f2 > ../results/task4_HR_names.txt" > ../commands/task4_commands.txt
+  458  ls
+  459  cd ../
+  460  tree
+  461  history 
+  462  history | tail -n 40 > command_history_used.txt
+  463  ls
+  464  cat command_history_used.txt 
+  465  history | tail -n 45 > command_history_used.txt

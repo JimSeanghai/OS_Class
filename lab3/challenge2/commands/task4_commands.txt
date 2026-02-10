@@ -1,0 +1,1 @@
+ grep 'department:HR' employees.txt | cut -d',' -f2 | cut -d':' -f2 > ../results/task4_HR_names.txt
